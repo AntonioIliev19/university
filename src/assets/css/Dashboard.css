@@ -90,6 +90,20 @@ input:focus {
     gap: 1rem;
 }
 
+.task-item button {
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task-item button:hover {
+    background-color: var(--tree-green);
+}
+
 
 .task-text {
     flex: 1;
