@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": "2479",
+      "email": "test@gmail.com",
+      "password": "Glavniq123123"
+    },
+    {
+      "id": "c4cf",
+      "email": "glavniq@test.com",
+      "password": "1312"
+    },
+    {
+      "id": "3ace",
+      "email": "test@gmai2l.com",
+      "password": "Dilqna"
+    }
+  ]
+}
