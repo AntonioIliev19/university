@@ -33,7 +33,7 @@ const Register = () => {
 
             if (res.ok) {
                 const user = await res.json();
-                login({ email: user.email });
+                login({ email: user.email, id: user.id });
                 navigate("/dashboard");
             } else {
                 setError("Registration Failed");

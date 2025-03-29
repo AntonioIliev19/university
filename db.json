@@ -15,5 +15,25 @@
       "email": "test@gmai2l.com",
       "password": "Dilqna"
     }
+  ],
+  "tasks": [
+    {
+      "id": "9188",
+      "userId": "2479",
+      "text": "test",
+      "completed": false
+    },
+    {
+      "id": "d4b8",
+      "userId": "c4cf",
+      "text": "teasdasd",
+      "completed": false
+    },
+    {
+      "id": "c823",
+      "userId": "c4cf",
+      "text": "teadsasd",
+      "completed": false
+    }
   ]
 }

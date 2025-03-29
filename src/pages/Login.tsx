@@ -21,7 +21,7 @@ const Login = () => {
 
             if (users.length > 0) {
                 const user = users[0];
-                login({ email: user.email });
+                login({ email: user.email, id: user.id });
                 navigate("/dashboard");
             } else {
                 setError("Login failed");

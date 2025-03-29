@@ -1,10 +1,12 @@
 .dashboard {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
     border-radius: 12px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+    margin-bottom: 5rem;
 }
 
 .dashboard h2 {
@@ -13,10 +15,86 @@
 }
 
 .dashboard button {
+
     padding: 0.6rem 1.2rem;
     background-color: var(--button-bg);
     color: var(--button-text);
     border: none;
     border-radius: 6px;
     cursor: pointer;
+}
+
+.tasks-container {
+    display: flex;
+    /*width: 100%;*/
+    /*flex-direction: row;*/
+    justify-content: center;
+    /*gap: 5rem;*/
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 500px;
+}
+
+.task-form {
+    display: flex;
+    height: 40%;
+    gap: 0.5rem;
+}
+
+.task-form input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid var(--input-border);
+    border-radius: 4px;
+    background: none;
+    color: var(--text-dark-green);
+    outline: none;
+    transition: 0.5s;
+}
+
+input:focus {
+    border: 1px solid var(--text-dark-green);
+}
+
+.task-form button {
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task-form button:hover {
+    background-color: var(--solar-blue);
+}
+
+.task-list {
+    text-align: center;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: var(--light-green-bg);
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+    word-wrap: break-word;
+    gap: 1rem;
+}
+
+
+.task-text {
+    flex: 1;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    white-space: normal;
+    min-width: 0;
 }
