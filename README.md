@@ -17,3 +17,18 @@ You may also see any lint errors in the console.
 ### `npx json-server --watch db.json --port 3001`
 
 Runs the db in the development mode.
+
+## Creating a User.
+
+### When you register as new user it will be stored to db.json.\
+#### Example:
+```
+{
+  "users": [
+    {
+      "id": "2479",
+      "email": "test@gmail.com",
+      "password": "TestPassword123"
+    }
+  ]
+}
