@@ -20,8 +20,8 @@ Runs the db in the development mode.
 
 ## Creating a User.
 
-### When you register as new user it will be stored to db.json.\
-#### Example:
+### When you register as new user it will be stored to db.json.
+#### For Example:
 ```
 {
   "users": [
